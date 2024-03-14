@@ -1,5 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
+import { routes } from './app.routes';
+import { RegistroComponent } from './pages/registro/registro.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AuthService } from './services/auth.service';
+
 
 @Component({
   selector: 'app-root',
